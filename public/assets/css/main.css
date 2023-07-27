@@ -488,7 +488,7 @@ section {
     inset: 0;
     padding: 50px 0 10px 0;
     margin: 0;
-    background: rgba(0, 131, 116, 0.9);
+    background: #424874 ;
     overflow-y: auto;
     transition: 0.3s;
     z-index: 9998;
@@ -534,7 +534,7 @@ section {
   .navbar .getstarted:hover,
   .navbar .getstarted:focus:hover {
     color: #fff;
-    background: rgba(0, 131, 116, 0.8);
+    background: #424874 ;
   }
 
   .navbar .dropdown ul,
@@ -544,8 +544,8 @@ section {
     padding: 10px 0;
     margin: 10px 20px;
     transition: all 0.5s ease-in-out;
-    background-color: #007466;
-    border: 1px solid #006459;
+    background-color:#424874 ;
+    border: 1px solid #424874 ;
   }
 
   .navbar .dropdown > .dropdown-active,
@@ -587,7 +587,7 @@ section {
     content: "";
     position: fixed;
     inset: 0;
-    background: rgba(0, 106, 93, 0.8);
+    background: rgba(84, 104, 117, 0.8);
     z-index: 9996;
   }
 }
@@ -806,7 +806,7 @@ section {
 --------------------------------------------------------------*/
 .call-to-action .container {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("../img/cta-bg.jpg") center center;
+    url("https://www.esds.co.in/blog/wp-content/uploads/2021/10/AI-Health-Care-Blog-Banner.jpg") center center;
   background-size: cover;
   padding: 100px 60px;
   border-radius: 15px;
@@ -1721,7 +1721,7 @@ section {
 
 .contact .info-item {
   width: 100%;
-  background-color: #009282;
+  background-color: #424874 ;
   margin-bottom: 20px;
   padding: 20px;
   border-radius: 10px;
@@ -1996,7 +1996,7 @@ section {
 }
 
 .hero .icon-box:hover {
-  background: #009786;
+  background: #4b4f70  ;
 }
 
 .hero .icon-box:hover .title a,
