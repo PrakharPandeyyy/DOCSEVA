@@ -26,8 +26,8 @@ app.get("/blog", function (req, res) {
 app.get("/loginPage", function (req, res) {
   res.render("loginPage");
 });
-app.get("/temp", function (req, res) {
-  res.render("template1");
+app.get("/loginIntermediate", function (req, res) {
+  res.render("loginIntermediate");
 });
 
 app.listen(3000, function (req, res) {
