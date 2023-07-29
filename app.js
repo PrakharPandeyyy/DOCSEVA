@@ -23,8 +23,14 @@ app.get("/", function (req, res) {
 app.get("/blog", function (req, res) {
   res.render("blog");
 });
-app.get("/loginPage", function (req, res) {
-  res.render("loginPage");
+app.get("/loginIntermediate", function (req, res) {
+  res.render("loginIntermediate");
+});
+app.get("/patientLogin", function (req, res) {
+  res.render("patientLogin");
+});
+app.get("/doctorLogin", function (req, res) {
+  res.render("doctorLogin");
 });
 app.get("/loginIntermediate", function (req, res) {
   res.render("loginIntermediate");
