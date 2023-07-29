@@ -7,7 +7,10 @@
     <title>DOC-SEVA🧑‍⚕️</title>
     <meta content="" name="description" />
     <meta content="" name="keywords" />
-
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap" rel="stylesheet">
     <!-- Favicons -->
     <link
       href="https://media.giphy.com/media/abQREAbWNNrhLvILxz/giphy.gif"
@@ -48,9 +51,7 @@
       class="header d-flex align-items-center"
       style="background-color: #257674"
     >
-      <div
-        class="container-fluid container-l d-flex align-items-center justify-content-between"
-      >
+      <div class="container-fluid container-l d-flex align-items-center">
         <a href="index.html" class="logo d-flex align-items-center">
           <h1>DocSeva🧑‍⚕️<span>.</span></h1>
         </a>
@@ -74,8 +75,17 @@
       <section class="sample-page">
         <div class="container" data-aos="fade-up"></div>
       </section>
-      <%- include("partials/profileCardDoctor.ejs")-%>
-      <%- include("partials/profileCardPatient.ejs")-%>
+      <div style="text-align: center;">
+      <h1 style="font-size:60px; font-family: 'Rubik', sans-serif; font-weight:bolder;">Welcome to DocSeva🧑‍⚕️</h1>
+    </div>
+      <div style="display: flex; flex-direction:row; justify-content:space-evenly;">
+        <div>
+        <%- include("partials/profileCardDoctor.ejs")-%>
+        </div>
+        <div>
+        <%-include("partials/profileCardPatient.ejs")-%>
+        </div>
+      </div>
     </main>
     <!-- End #main -->
 
