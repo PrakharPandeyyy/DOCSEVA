@@ -8,6 +8,11 @@
   width: 350px;
 }
 
+.docseva {
+  border: 1px solid black;
+  position: absolute;
+}
+
 .left-element {
  
   height: 50px;
