@@ -32,6 +32,9 @@ app.get("/patientLogin", function (req, res) {
 app.get("/doctorLogin", function (req, res) {
   res.render("doctorLogin");
 });
+app.get("/temp", function (req, res) {
+  res.render("template1");
+});
 app.get("/loginIntermediate", function (req, res) {
   res.render("loginIntermediate");
 });

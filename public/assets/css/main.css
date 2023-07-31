@@ -25,6 +25,7 @@
 body {
   font-family: var(--font-default);
   color: var(--color-default);
+  overflow-x:hidden ;
 }
 
 a {
@@ -2658,6 +2659,7 @@ section {
 
 .footer .copyright {
   text-align: center;
+  margin-bottom: 0;
 }
 
 .footer .credits {
