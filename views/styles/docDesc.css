@@ -1,0 +1,62 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+
+.desc-img {
+    width: 100%;
+}
+.desc-img p {
+    font-size:20px;
+    position: absolute;
+    top:29%;
+    left: 4%;
+}
+.desc-img h1 {
+    position: absolute;
+    top:20%;
+    left: 4%;
+}
+.desc-img img {
+    margin: 0;
+    z-index: -1;
+    width: 100%;
+    height: fit-content;
+}
+
+
+/* This is the code for the contents that will be aligned to the lines that will be there in the css file */
+.container1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    margin: 0;
+  }
+  
+  .text {
+    flex: 1;
+    padding-right: 20px;
+}
+    .text p {
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 1.5;
+    color: #333;
+    margin-bottom: 20px;
+    }
+  
+  .image {
+    flex: 1;
+    text-align: right;
+    min-width: 200px;
+    mix-blend-mode: color;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  
