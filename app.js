@@ -20,6 +20,9 @@ app.use(
 app.get("/", function (req, res) {
   res.render("index");
 });
+app.get("/index", function (req, res) {
+  res.render("index");
+});
 app.get("/blog", function (req, res) {
   res.render("blog");
 });
@@ -37,6 +40,9 @@ app.get("/chatbot", function (req, res) {
 });
 app.get("/docDescPage", function (req, res) {
   res.render("docDesc");
+});
+app.get("/patientDesc", function (req, res) {
+  res.render("patientDesc");
 });
 app.get("/loginIntermediate", function (req, res) {
   res.render("loginIntermediate");
