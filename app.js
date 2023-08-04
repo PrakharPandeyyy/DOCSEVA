@@ -38,7 +38,7 @@ app.get("/doctorLogin", function (req, res) {
 app.get("/chatbot", function (req, res) {
   res.render("chatbot");
 });
-app.get("/docDescPage", function (req, res) {
+app.get("/docDesc", function (req, res) {
   res.render("docDesc");
 });
 app.get("/patientDesc", function (req, res) {
@@ -47,6 +47,10 @@ app.get("/patientDesc", function (req, res) {
 app.get("/loginIntermediate", function (req, res) {
   res.render("loginIntermediate");
 });
+app.get("/temp", function (req, res) {
+  res.render("temp");
+});
+
 
 app.listen(3000, function (req, res) {
   console.log("Server is online on Port:3000");
