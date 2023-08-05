@@ -20,6 +20,9 @@ app.use(
 app.get("/", function (req, res) {
   res.render("index");
 });
+app.get("/index", function (req, res) {
+  res.render("index");
+});
 app.get("/blog", function (req, res) {
   res.render("blog");
 });
@@ -32,9 +35,22 @@ app.get("/patientLogin", function (req, res) {
 app.get("/doctorLogin", function (req, res) {
   res.render("doctorLogin");
 });
+app.get("/chatbot", function (req, res) {
+  res.render("chatbot");
+});
+app.get("/docDesc", function (req, res) {
+  res.render("docDesc");
+});
+app.get("/patientDesc", function (req, res) {
+  res.render("patientDesc");
+});
 app.get("/loginIntermediate", function (req, res) {
   res.render("loginIntermediate");
 });
+app.get("/temp", function (req, res) {
+  res.render("temp");
+});
+
 
 app.listen(3000, function (req, res) {
   console.log("Server is online on Port:3000");
