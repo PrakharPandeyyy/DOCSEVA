@@ -47,8 +47,8 @@ app.get("/patientDesc", function (req, res) {
 app.get("/loginIntermediate", function (req, res) {
   res.render("loginIntermediate");
 });
-app.get("/temp", function (req, res) {
-  res.render("temp");
+app.get("/about", function (req, res) {
+  res.render("about");
 });
 
 
